@@ -117,7 +117,7 @@ Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/akonadi-calenda
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/akonadi-calendar-tools.git
 
 Package: konsolekalendar
-Architecture: all
+Architecture: any
 Depends: kdepim-runtime, ${misc:Depends}, ${shlibs:Depends}
 Description: konsole personal organizer
  KonsoleKalendar is a command-line interface to KDE calendars.
