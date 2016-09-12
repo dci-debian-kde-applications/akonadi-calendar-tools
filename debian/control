@@ -111,14 +111,13 @@ Build-Depends: cmake (>= 2.8.12~),
                shared-mime-info,
                xsltproc,
                zlib1g-dev
-Build-Depends-Indep: dblatex
 Standards-Version: 3.9.8
 Homepage: http://pim.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/akonadi-calendar-tools.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/akonadi-calendar-tools.git
 
 Package: konsolekalendar
-Architecture: any
+Architecture: all
 Depends: kdepim-runtime, ${misc:Depends}, ${shlibs:Depends}
 Description: konsole personal organizer
  KonsoleKalendar is a command-line interface to KDE calendars.
