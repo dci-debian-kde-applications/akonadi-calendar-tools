@@ -13,12 +13,12 @@ Build-Depends: cmake (>= 3.1~),
                debhelper (>= 9),
                extra-cmake-modules (>= 5.35.0~),
                libkf5akonadi-dev (>= 4:17.08~),
-               libkf5akonadicalendar-dev (>= 15.12~),
-               libkf5calendarcore-dev (>= 4:15.12~),
-               libkf5calendarsupport-dev (>= 15.12~),
-               libkf5calendarutils-dev,
+               libkf5akonadicalendar-dev (>= 17.08~),
+               libkf5calendarcore-dev (>= 4:17.08~),
+               libkf5calendarsupport-dev (>= 17.08~),
+               libkf5calendarutils-dev (>= 17.08~),
                libkf5doctools-dev (>= 5.35.0~),
-               libkf5libkdepim-dev (>= 15.12~),
+               libkf5libkdepim-dev (>= 17.08~),
                pkg-config,
                pkg-kde-tools (>= 0.12),
                qtbase5-dev (>= 5.7.0~),
@@ -38,4 +38,3 @@ Description: konsole personal organizer
  KonsoleKalendar is a command-line interface to KDE calendars.
  KonsoleKalendar complements KOrganizer by providing a console
  frontend to manage your calendars.
- .
