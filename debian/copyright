@@ -1,16 +1,17 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 
 Files: *
-Copyright: 2002-2015, Free Software Foundation, Inc
+Copyright: 2003-2009, Allen Winter <winter@kde.org>
+           1951, Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
+           1989-1991, Free Software Foundation, Inc
+           2013, Sérgio Martins <iamsergio@gmail.com>
+           2002-2004, Tuukka Pasanen <illuusio@mailcity.com>
+           2002-2015, Free Software Foundation, Inc
            2005, KDE Russian translation team
            2002, Meni Livne <livne@kde.org>
            2013, Rosetta Contributors and Canonical Ltd 2013
            2003-2016, This_file_is_part_of_KDE
-License: GFDL-NIV-1.2 or GPL-2+ or LGPL-2.1+
-Comment: No explicit license found, using license(s) from:
- COPYING
- COPYING.DOC
- COPYING.LIB
+License: GPL-2+
 
 Files: doc/konsolekalendar/index.docbook
        po/ca/docs/*
@@ -28,55 +29,11 @@ Copyright: 2002-2004, Tuukka Pasanen <illuusio@mailcity.com>
            2003-2007, Allen Winter <winter@kde.org>
 License: GFDL-1.2+
 
-Files: COPYING
-       console-version.h.cmake
-Copyright: 2000-2004, Cornelius Schumacher <schumacher@kde.org>
-           1951, Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
-           1989-1991, Free Software Foundation, Inc
-           1998-1999, Preston Brown <pbrown@kde.org>
-License: GPL-2+
-
-Files: COPYING.DOC
-Copyright: 1951, Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
-           2000-2002, Free Software Foundation, Inc
-License: GFDL-NIV-1.2
-
-Files: COPYING.LIB
-Copyright: 1991-1999, Free Software Foundation, Inc
-License: LGPL-2.1+
-
 Files: calendarjanitor/*
 Copyright: 1951, Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
            1989-1991, Free Software Foundation, Inc
            2013, Sérgio Martins <iamsergio@gmail.com>
 License: GPL-2+
-
-Files: calendarjanitor/CMakeLists.txt
-       calendarjanitor/Messages.sh
-License: GPL-2+
-Comment: No explicit license found, using license(s) from:
- calendarjanitor/COPYING
-
-Files: konsolekalendar/*
-Copyright: 2003-2009, Allen Winter <winter@kde.org>
-           1951, Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
-           1989-1991, Free Software Foundation, Inc
-           2013, Sérgio Martins <iamsergio@gmail.com>
-           2002-2004, Tuukka Pasanen <illuusio@mailcity.com>
-License: GPL-2+
-
-Files: konsolekalendar/CMakeLists.txt
-       konsolekalendar/HACKS
-       konsolekalendar/Mainpage.dox
-       konsolekalendar/Messages.sh
-       konsolekalendar/ROADMAP
-       konsolekalendar/TODO
-       konsolekalendar/examples/README
-       konsolekalendar/konsolekalendar.desktop
-       konsolekalendar/pics/*
-License: GPL-2+
-Comment: No explicit license found, using license(s) from:
- konsolekalendar/COPYING
 
 Files: po/ca/calendarjanitor.po
        po/ca@valencia/calendarjanitor.po
@@ -85,9 +42,13 @@ Files: po/ca/calendarjanitor.po
 Copyright: 2003-2016, This_file_is_part_of_KDE
 License: LGPL-2.1+3+KDEeV
 
-Files: debian/*
-Copyright: 2009, Sune Vuorela <debian@pusling.com>
-License: LGPL-2+
+Files: COPYING
+       console-version.h.cmake
+Copyright: 2000-2004, Cornelius Schumacher <schumacher@kde.org>
+           1951, Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
+           1989-1991, Free Software Foundation, Inc
+           1998-1999, Preston Brown <pbrown@kde.org>
+License: GPL-2+
 
 License: GFDL-1.2+
  Permission is granted to copy, distribute and/or modify this document
@@ -154,18 +115,14 @@ License: LGPL-2.1+
  can be found in `/usr/share/common-licenses/LGPL-2.1'.
 
 License: LGPL-2.1+3+KDEeV
- This library is free software; you can redistribute it and/or modify
- it under the terms of the GNU Library General Public License as published
- by the Free Software Foundation; either version 2 of the License or
- ( at your option ) version 3 or, at the discretion of KDE e.V.
- ( which shall act as a proxy as in section 14 of the GPLv3 ), any later version.
+ This file is distributed under the license LGPL version 2.1 or
+ version 3 or later versions approved by the membership of KDE e.V.
  .
- This library is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- Library General Public License for more details.
- .
- The complete text of the GNU Library General Public License version 2
- can be found in `/usr/share/common-licenses/LGPL-2', likewise,
+ The complete text of the GNU Lesser General Public License version 2.1
+ can be found in `/usr/share/common-licenses/LGPL-2.1', likewise,
  the complete text of the GNU Lesser General Public License version 3
  can be found in `/usr/share/common-licenses/LGPL-3'.
+
+Files: debian/*
+Copyright: 2009, Sune Vuorela <debian@pusling.com>
+License: LGPL-2+
