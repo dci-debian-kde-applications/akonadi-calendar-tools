@@ -24,7 +24,7 @@ Build-Depends: cmake (>= 3.1~),
                qtbase5-dev (>= 5.7.0~),
                xsltproc,
                zlib1g-dev,
-Standards-Version: 4.0.1
+Standards-Version: 4.1.2
 Homepage: http://pim.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/akonadi-calendar-tools.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/akonadi-calendar-tools.git
