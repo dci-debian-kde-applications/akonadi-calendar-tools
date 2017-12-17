@@ -15,15 +15,12 @@ Build-Depends: cmake (>= 3.1~),
                libkf5akonadicalendar-dev (>= 4:17.08.3~),
                libkf5calendarcore-dev (>= 4:17.08.3~),
                libkf5calendarsupport-dev (>= 4:17.08.3~),
-               libkf5calendarutils-dev (>= 17.08~),
+               libkf5calendarutils-dev (>= 17.08.3~),
                libkf5doctools-dev (>= 5.35.0~),
                libkf5libkdepim-dev (>= 4:17.08.3~),
-               libkf5pimtextedit-dev (>= 17.08~),
                pkg-config,
                pkg-kde-tools (>= 0.12),
                qtbase5-dev (>= 5.7.0~),
-               xsltproc,
-               zlib1g-dev,
 Standards-Version: 4.1.2
 Homepage: http://pim.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/akonadi-calendar-tools.git
