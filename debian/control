@@ -28,7 +28,8 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/akonadi-calendar-to
 
 Package: konsolekalendar
 Architecture: any
-Depends: kdepim-runtime, ${misc:Depends}, ${shlibs:Depends}
+Depends: kdepim-runtime [amd64 arm64 armhf i386 mipsel],
+         ${misc:Depends}, ${shlibs:Depends},
 Breaks: korganizer (<< 4:17.08~), ${kde-l10n:all}
 Replaces: korganizer (<< 4:17.08~), ${kde-l10n:all}
 Description: konsole personal organizer
